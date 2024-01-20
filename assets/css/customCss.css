@@ -9,17 +9,21 @@ body {
     color: black;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
-    .standard-padding {
-        padding: 1rem;
-    }
+.standard-padding {
+    padding: 1rem 7rem;
 }
 
-@media screen and (min-width: 1441px) {
-    .standard-padding {
-        padding: 1rem 7rem;
-    }
-}
+/*@media screen and (min-width: 768px) and (max-width: 1440px) {*/
+/*    .standard-padding {*/
+/*        padding: 1rem;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-width: 1441px) {*/
+/*    .standard-padding {*/
+/*        padding: 1rem 7rem;*/
+/*    }*/
+/*}*/
 
 .footer-bg {
     background-color: #121212;
@@ -69,7 +73,6 @@ body {
 }
 
 
-
 /**FEATURES STYLE*/
 .features-first-card {
     left: 50%;
@@ -80,7 +83,6 @@ body {
     border: none;
     box-shadow: 5px 5px 2rem rgba(0, 0, 0, 0.1);
 }
-
 
 
 .first-card {
@@ -191,15 +193,63 @@ body {
 
 /*RESPONSIVE*/
 @media (max-width: 991px) {
-    .font-size-10-b {
-        font-size: 10rem;
+    .header-logo-w-25 {
+        width: 25rem;
+    }
+
+    h1 {
+        font-size: 6rem;
         font-weight: bold;
     }
+
+    h2 {
+        font-size: 5rem;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 4rem;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    button {
+        font-size: 3rem !important;
+        font-weight: bold !important;
+        margin-top: 2rem;
+    }
+
+    .font-size-6-b {
+        font-size: 6rem;
+        font-weight: bold;
+    }
+
     .mb-25-tm {
         margin-bottom: 25rem !important;
     }
+
     .mt-25-tm {
         margin-top: 25rem !important;
+    }
+
+    .mb-55-tm {
+        margin-bottom: 55rem !important;
+    }
+
+    .mt-55-tm {
+        margin-top: 55rem !important;
+    }
+    .mb-45-tm {
+        margin-bottom: 45rem !important;
+    }
+    .mt-45-tm {
+        margin-top: 45rem !important;
+    }
+    .pb-0-tm {
+        padding-bottom: 0;
     }
     .dynamic-position {
         position: relative;
@@ -220,11 +270,9 @@ body {
     /*    .mt-12 {*/
     /*        margin-top: 0 !important;*/
     /*    }*/
-
     /*    .mb-12 {*/
     /*        margin-bottom: 0 !important;*/
     /*    }*/
-
     .footer-card {
         left: auto;
         transform: none;
@@ -237,5 +285,22 @@ body {
         background-image: url(../media/features/bg-line.png);
         background-size: cover;
         border-radius: 0 !important;
+    }
+    .carousel-active-element {
+        display: block !important;
+    }
+    .carousel-image img {
+        max-height: 20vh;
+        width: 100%;
+    }
+
+    .carousel-buttons {
+        position: absolute;
+        left: unset;
+        bottom: 0;
+        right: 0;
+    }
+    #previous-button, #next-button {
+        width: 5rem;
     }
 }
