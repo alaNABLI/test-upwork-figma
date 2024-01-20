@@ -221,7 +221,15 @@ body {
         font-weight: bold !important;
         margin-top: 2rem;
     }
-
+    .icons-size {
+        width: 10rem;
+    }
+    .women-cropped-size {
+        width: 150%;
+    }
+    .iphone2-size {
+        width: 100%;
+    }
     .font-size-6-b {
         font-size: 6rem;
         font-weight: bold;
