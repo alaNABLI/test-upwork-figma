@@ -213,6 +213,10 @@ body {
         text-align: center;
     }
 
+    body {
+        font-size: 4rem;
+    }
+
     /*    .mt-12 {*/
     /*        margin-top: 0 !important;*/
     /*    }*/
