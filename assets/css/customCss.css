@@ -191,6 +191,10 @@ body {
 
 /*RESPONSIVE*/
 @media (max-width: 991px) {
+    .font-size-4-b {
+        font-size: 4rem;
+        font-weight: bold;
+    }
     .mb-25-tm {
         margin-bottom: 25rem !important;
     }
@@ -211,10 +215,6 @@ body {
 
     .small-screen-center {
         text-align: center;
-    }
-
-    body {
-        font-size: 4rem;
     }
 
     /*    .mt-12 {*/
