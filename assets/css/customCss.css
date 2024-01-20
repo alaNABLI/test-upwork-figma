@@ -191,7 +191,7 @@ body {
 
 /*RESPONSIVE*/
 @media (max-width: 991px) {
-    .font-size-4-b {
+    .font-size-10-b {
         font-size: 4rem;
         font-weight: bold;
     }
