@@ -408,4 +408,8 @@ h3 {
     .mtf{
         margin-top: 5rem!important;
     }
+
+    .vw-85-mt {
+        width: 85vw!important;
+    }
 }
