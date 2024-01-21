@@ -13,6 +13,26 @@ body {
     padding: 1rem 7rem;
 }
 
+.link-secondary {
+    color: white;
+}
+
+h1 {
+    font-size: calc(1.425rem + 2.1vw);
+    line-height: 1.2;
+}
+h2 {
+    font-size: calc(1.425rem + 1.5vw);
+    line-height: 1.2;
+}
+h3 {
+    font-size: calc(1.425rem + 1vw);
+    line-height: 1.2;
+}
+
+.vw-85 {
+    width: 85vw;
+}
 /*@media screen and (min-width: 768px) and (max-width: 1440px) {*/
 /*    .standard-padding {*/
 /*        padding: 1rem;*/
@@ -99,9 +119,15 @@ body {
     bottom: 0;
 }
 
+.women1-full {
+    bottom: 23%;
+    width: 40%;
+}
+
 .footer-card-logo-position {
-    bottom: 3.5rem;
+    bottom: 1.5rem;
     right: 20%;
+    width: 30%;
 }
 
 .carousel-element {
@@ -190,6 +216,12 @@ body {
     bottom: 0;
 }
 
+.first-women {
+    position: absolute;
+    width: 25vw;
+    bottom: 0;
+}
+
 
 /*RESPONSIVE*/
 @media (max-width: 991px) {
@@ -202,7 +234,17 @@ body {
         font-weight: bold;
     }
 
+    h1 span {
+        font-size: 6rem;
+        font-weight: bold;
+    }
+
     h2 {
+        font-size: 5rem;
+        font-weight: bold;
+    }
+
+    h2 span {
         font-size: 5rem;
         font-weight: bold;
     }
@@ -211,8 +253,21 @@ body {
         font-size: 4rem;
         font-weight: bold;
     }
+    h4,h5 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
 
-    p {
+    h3 span {
+        font-size: 4rem;
+        font-weight: bold;
+    }
+
+    p, li {
+        font-size: 2rem;
+    }
+
+    span {
         font-size: 2rem;
     }
 
@@ -221,15 +276,19 @@ body {
         font-weight: bold !important;
         margin-top: 2rem;
     }
+
     .icons-size {
         width: 10rem;
     }
+
     .women-cropped-size {
         width: 150%;
     }
+
     .iphone2-size {
         width: 100%;
     }
+
     .font-size-6-b {
         font-size: 6rem;
         font-weight: bold;
@@ -250,15 +309,19 @@ body {
     .mt-55-tm {
         margin-top: 55rem !important;
     }
+
     .mb-45-tm {
         margin-bottom: 45rem !important;
     }
+
     .mt-45-tm {
         margin-top: 45rem !important;
     }
+
     .pb-0-tm {
-        padding-bottom: 0;
+        padding-bottom: 0 !important;
     }
+
     .dynamic-position {
         position: relative;
     }
@@ -294,9 +357,11 @@ body {
         background-size: cover;
         border-radius: 0 !important;
     }
+
     .carousel-active-element {
         display: block !important;
     }
+
     .carousel-image img {
         max-height: 20vh;
         width: 100%;
@@ -308,7 +373,39 @@ body {
         bottom: 0;
         right: 0;
     }
+
     #previous-button, #next-button {
         width: 5rem;
+    }
+
+    .w-15 {
+        width: 15rem;
+    }
+    .w-50 {
+        width: 50%;
+    }
+
+    .w-100-tm {
+        width: 100% !important;
+    }
+
+    .p-0-tm {
+        padding: 0;
+    }
+
+    .button-responsive {
+        padding: 2rem;
+        border-radius: 4rem !important;
+    }
+
+    .text-left-tm {
+        text-align: left;
+    }
+
+    .standard-padding-tm {
+        padding: 1rem 7rem;
+    }
+    .mtf{
+        margin-top: 5rem!important;
     }
 }

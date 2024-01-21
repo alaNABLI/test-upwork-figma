@@ -15,7 +15,7 @@
     <nav class="navbar navbar-expand-lg navbar-light standard-padding">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="assets/media/features/navLogo.png" alt="logo">
+                <img class="header-logo-w-25" src="./assets/media/features/navLogo.png" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,33 +49,34 @@
                     </li>
                 </ul>
 
-                <button class="btn btn-primary radius-18" type="submit">Start Free Trial</button>
+                <button class="btn btn-primary radius-18 button-responsive" type="submit">Start Free Trial</button>
             </div>
         </div>
     </nav>
 </header>
 <main class="position-relative">
-    <div class="d-md-flex flex-md-equal w-100 m-0 standard-padding row pb-0">
-        <div class="col-md-4 my-5 mb-0">
+    <section class="d-md-flex flex-md-equal w-100 m-0 row pb-0">
+        <div class="col-12 col-lg-4 my-5 mb-0 standard-padding">
             <h1 class="nunito-sans">Getting paid should be <span class="yellow">Quick</span></h1>
             <p>Discover the extensive array of features encompassed within BillingServ's
                 comprehensive suite, empowering you with a versatile and all-encompassing platform.</p>
-            <button class="btn btn-primary radius-18 mt-5 button-fs mb-5" type="submit">Start Free Trial
+            <button class="btn btn-primary radius-18 mt-5 button-fs mb-5 button-responsive" type="submit">Start Free
+                Trial
             </button>
-            <div class="mt-5">
+            <div class="mt-5 d-none d-lg-block">
                 <span class="fw-bold">TRUSTED BY</span><br>
                 <img src="assets/media/home/trusted-by.png" alt="trusted-by">
             </div>
         </div>
-        <div class="col-4 my-5 mb-0">
-            <img src="assets/media/home/women1.png" alt="women1">
+        <div class="col-4 my-5 mb-0 position-relative d-none d-lg-block standard-padding">
+            <img class="first-women" src="assets/media/home/women1.png" alt="women1">
         </div>
-        <div class="col-4 my-5 mb-0">
-            <span class="display-4 fw-bold nunito-sans yellow">10k+</span>
+        <div class="col-4 my-5 mb-0 d-none d-lg-block standard-padding">
+            <h3 class="fw-bold nunito-sans yellow">10k+</h3>
             <p>Lorem ipsum dolor sit amet</p>
-            <span class="display-4 fw-bold nunito-sans yellow">3M</span>
+            <h3 class="fw-bold nunito-sans yellow">3M</h3>
             <p>Lorem ipsum dolor sit amet</p>
-            <span class="display-4 fw-bold nunito-sans yellow">200K+</span>
+            <h3 class="fw-bold nunito-sans yellow">200K+</h3>
             <p>Lorem ipsum dolor sit amet</p>
             <div class="row">
                 <div class="col-12 mt-5 mb-1"><img class="icons-margin" src="assets/media/home/cards.png"
@@ -87,23 +88,46 @@
             </div>
 
         </div>
-    </div>
-    <div class="d-md-flex flex-md-equal w-100 bg-light m-0 standard-padding row pb-0 position-relative">
+        <div class="col-12 d-block d-lg-none standard-padding">
+            <div class="row">
+                <div class="col-12 mt-2 mb-1"><img class="icons-margin" src="assets/media/home/cards.png"
+                                                   alt="cards-icon"><span>Pay only for what you need</span></div>
+                <div class="col-12 mb-1"><img class="icons-margin" src="assets/media/home/expand.png"
+                                              alt="cards-icon"><span>Upsize or downsize instantly</span></div>
+                <div class="col-12"><img class="icons-margin" src="assets/media/home/globe.png" alt="cards-icon"><span
+                        class="">Request and receive payments anytime.</span></div>
+            </div>
+        </div>
+        <div class="col-12 d-block d-lg-none standard-padding pb-0-tm">
+            <img class="w-100" src="./assets/media/home/women1-mobile.png" alt="women">
+        </div>
+        <div class="col-12 d-block d-lg-none yellow-bg white p-5">
+            <h3 class="fw-bold nunito-sans white">10k+</h3>
+            <p>Lorem ipsum dolor sit amet</p>
+            <hr>
+            <h3 class="fw-bold nunito-sans white">3M</h3>
+            <p>Lorem ipsum dolor sit amet</p>
+            <hr>
+            <h3 class="fw-bold nunito-sans white">200K+</h3>
+            <p>Lorem ipsum dolor sit amet</p>
+        </div>
+    </section>
+    <section class="d-md-flex flex-md-equal w-100 bg-light m-0 standard-padding row pb-5 pb-lg-0 position-relative">
         <div class="col-12 row">
-            <div class="col-md-6">
-                <h2 class="display-5  nunito-sans mt-5">
+            <div class="col-12 col-lg-6 small-screen-center">
+                <h2 class="nunito-sans mt-5">
                     <span>Affordable &  </span><span
                         class="yellow">reliable </span><span>billing services for anyone</span></h2>
                 <p>BillingServ has been strategically developed to cater to a wide spectrum of
                     businesses, ranging from individual entrepreneurs to large-scale corporations.</p>
             </div>
-            <div class="col-6">
+            <div class="col-6 d-none d-lg-block">
                 <img src="assets/media/home/iphone1.png">
             </div>
         </div>
-        <div class="row position-absolute absolute-row-position">
-            <div class="p-2 col-3">
-                <div class="card radius-18 h-100 cards-shadow">
+        <div class="row dynamic-position absolute-row-position vw-85">
+            <div class="p-2 col-12 col-lg-3">
+                <div class="card radius-18 h-100 cards-shadow p-3 p-lg-0">
                     <div class="card-body">
                         <h3 class="nunito-sans">End Late Payments</h3>
                         <p>Our payment system offers both instant one-time payment and automated recurring payment
@@ -111,8 +135,8 @@
                     </div>
                 </div>
             </div>
-            <div class="p-2 col-3">
-                <div class="card radius-18 h-100 cards-shadow">
+            <div class="p-2 col-12 col-lg-3">
+                <div class="card radius-18 h-100 cards-shadow p-lg-0">
                     <div class="card-body">
                         <h3 class="nunito-sans">No more chasing</h3>
                         <p>BillingServ's auto-payment system eliminates payment deadline reliance, saving businesses
@@ -120,8 +144,8 @@
                     </div>
                 </div>
             </div>
-            <div class="p-2 col-3">
-                <div class="card radius-18 h-100 cards-shadow">
+            <div class="p-2 col-12 col-lg-3">
+                <div class="card radius-18 h-100 cards-shadow p-lg-0">
                     <div class="card-body">
                         <h3 class="nunito-sans">Automate Invoicing</h3>
                         <p>With our intuitive and user-friendly interface, you can easily track and monitor the payment
@@ -129,8 +153,8 @@
                     </div>
                 </div>
             </div>
-            <div class="p-2 col-3">
-                <div class="card radius-18 h-100 cards-shadow">
+            <div class="p-2 col-12 col-lg-3 mb-5 mb-lg-0">
+                <div class="card radius-18 h-100 cards-shadow p-lg-0">
                     <div class="card-body">
                         <h3 class="nunito-sans">Forget Expensive Fees</h3>
                         <p>BillingServ's payment collection service not only streamlines the payment process, but also
@@ -139,158 +163,176 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="d-md-flex flex-md-equal w-100 m-0 pb-0 standard-padding row position-relative">
-        <div class="col-6">
-            <img class="" src="assets/media/home/women2.png">
-        </div>
-        <div class="col-6 mb-5 mt-5">
-            <h2 class="display-4  nunito-sans mt-5">
+    </section>
+    <section class="d-md-flex flex-md-equal w-100 m-0 pb-0 standard-padding row position-relative">
+        <div class="col-12 mb-5 mt-5 d-block d-lg-none">
+            <h2 class="nunito-sans mt-5">
                 <span>Are you ready to supercharge your </span><span
                     class="yellow">billing?</span></h2>
             <p>BillingServ promises accurate and punctual billing, enhancing financial management and cash flow.</p>
-            <button class="btn btn-primary radius-18 mt-5 button-fs" type="submit">Start Free Trial
+            <button class="btn btn-primary radius-18 mt-5 button-fs button-responsive" type="submit">Start Free Trial
             </button>
         </div>
-    </div>
-    <div class="d-md-flex flex-md-equal w-100 bg-light m-0 standard-padding row pb-0 position-relative">
+        <div class="col-12 col-lg-6">
+            <img class="vw-85" src="assets/media/home/women2.png">
+        </div>
+        <div class="col-6 mb-5 mt-5 d-none d-lg-block">
+            <h2 class="nunito-sans mt-5">
+                <span>Are you ready to supercharge your </span><span
+                    class="yellow">billing?</span></h2>
+            <p>BillingServ promises accurate and punctual billing, enhancing financial management and cash flow.</p>
+            <button class="btn btn-primary radius-18 mt-5 button-fs button-responsive" type="submit">Start Free Trial
+            </button>
+        </div>
+    </section>
+    <section class="d-md-flex flex-md-equal w-100 bg-light m-0 standard-padding row pb-0 position-relative">
         <div class="col-12">
-            <div class="col-8 mx-auto my-5 text-center">
-                <h2 class="display-5  nunito-sans"><span class="yellow">Features </span><span>designed for you.</span></h2>
-                <p>BillingServ takes pride in providing a range of features that are specifically designed to cater to the unique needs of your business.</p>
-                <p> Our customizable platform allows you to tailor our services to match your individual requirements, ensuring that you receive a bespoke solution that fully aligns with your business goals.</p>
+            <div class="col-12 col-lg-8 mx-auto my-5 text-center">
+                <h2 class="nunito-sans"><span class="yellow">Features </span><span>designed for you.</span>
+                </h2>
+                <p>BillingServ takes pride in providing a range of features that are specifically designed to cater to
+                    the unique needs of your business.</p>
+                <p> Our customizable platform allows you to tailor our services to match your individual requirements,
+                    ensuring that you receive a bespoke solution that fully aligns with your business goals.</p>
             </div>
         </div>
         <div class="row mb-5 mt-5">
-            <div class="col-8">
+            <div class="col-12 col-lg-8">
                 <div class="card radius-18 h-100 cards-shadow">
-                    <div class="card-body row">
-                        <div class="col-6">
+                    <div class="card-body row p-5 pb-0-tm p-lg-0">
+                        <div class="col-12 col-lg-6">
                             <h3 class="nunito-sans">Get Paid with BillingServ,
                                 quick, simple & Easy!</h3>
-                            <p>Our payment processing system offers a seamless blend of security, reliability, and user-friendliness, all while maintaining full PCI Compliance.</p>
+                            <p>Our payment processing system offers a seamless blend of security, reliability, and
+                                user-friendliness, all while maintaining full PCI Compliance.</p>
                         </div>
-                        <div class="col-6">
-                            <img class="position-absolute iphone2-position" src="assets/media/home/iphone2.png" alt="iphone2">
+                        <div class="col-12 col-lg-6">
+                            <img class="dynamic-position w-100-tm iphone2-position" src="assets/media/home/iphone2.png"
+                                 alt="iphone2">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-4 py-5">
+            <div class="col-12 col-lg-4 py-5">
                 <h3 class="nunito-sans">Fully Secured</h3>
-                <p>BillingServ offers a highly secure platform with multiple backups to protect your valuable data and provide peace of mind.</p>
+                <p>BillingServ offers a highly secure platform with multiple backups to protect your valuable data and
+                    provide peace of mind.</p>
             </div>
-            <div class="col-4 py-5 mt-5">
-                <h3 class="nunito-sans">Fully Secured</h3>
-                <p>BillingServ offers a highly secure platform with multiple backups to protect your valuable data and provide peace of mind.</p>
+            <div class="col-4 py-5 mt-5 d-none d-lg-block">
+                <h3 class="nunito-sans">Grows with you</h3>
+                <p>With BillingServ, you can instantly upgrade your billing capacity. The sky’s the limit.</p>
             </div>
-            <div class="col-8 mt-5">
+            <div class="col-12 col-lg-8 mt-5">
                 <div class="card radius-18 h-100 cards-shadow">
                     <div class="card-body row">
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6 p-5 p-lg-0">
                             <h3 class="nunito-sans">Increase Cashflow</h3>
-                            <p>BillingServ empowers businesses with its streamlined invoicing and payment management solutions, optimizing cash flow by ensuring prompt and efficient collection of payments.</p>
+                            <p>BillingServ empowers businesses with its streamlined invoicing and payment management
+                                solutions, optimizing cash flow by ensuring prompt and efficient collection of
+                                payments.</p>
                         </div>
-                        <div class="col-6">
-                            <img class="position-absolute chart1-position" src="assets/media/home/chart1.png" alt="chart1">
+                        <div class="col-12 col-lg-6 p-0">
+                            <img class="dynamic-position chart1-position w-100-tm" src="assets/media/home/chart1.png"
+                                 alt="chart1">
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="col-12 py-5 mt-5 d-block d-lg-none">
+                <h3 class="nunito-sans">Grows with you</h3>
+                <p>With BillingServ, you can instantly upgrade your billing capacity. The sky’s the limit.</p>
             </div>
 
         </div>
-    </div>
-    <div class="d-md-flex flex-md-equal w-100 m-0 standard-padding row position-relative">
-        <div class="col-6 p-5">
-            <h2 class="display-5  nunito-sans"><span>What Our </span><span
+    </section>
+    <section class="d-md-flex flex-md-equal w-100 m-0 standard-padding row mb-15 position-relative">
+        <div class="col-12 col-lg-6 p-lg-5 mt-5 mt-lg-0 small-screen-center">
+            <h2 class="nunito-sans"><span>What Our </span><span
                     class="yellow">Users</span><span> are Saying</span></h2>
             <p>Discover the unparalleled quality of our services through the eyes of our valued
                 clients. Browse their testimonials and see why they trust us to meet their needs.</p>
         </div>
-        <div class="col-6">
+        <div class="col-12 col-lg-6">
             <div class="custom-carousel position-relative">
-                <div class="carousel-element d-flex flex-row bd-highlight mb-3 carousel-active-element">
-                    <div class="carousel-image p-2 bd-highlight"><img src="assets/media/features/carousselImage.png"
-                                                                      alt="image">
+                <div class="carousel-element d-flex flex-row bd-highlight mb-5 mb-lg-3 pb-5 pb-lg-0 carousel-active-element">
+                    <div class="carousel-image p-0 p-lg-3 bd-highlight">
+                        <img src="./assets/media/features/carousselImage.png" alt="image">
                     </div>
-                    <div class="carousel-text p-5 bd-highlight"><p>111111We have been using BillingServ for a short
+                    <div class="carousel-text p-0 p-lg-3 mt-5 mt-lg-0 bd-highlight"><p>1 We have been using BillingServ for a short
                         while, and so far its been delivering on every single point. Would absolutely recommend it to
                         anyone! Their support team is second to none, they answer our support tickets within minutes.
                         Great job, guys</p></div>
                 </div>
-                <div class="carousel-element d-flex flex-row bd-highlight mb-3">
-                    <div class="carousel-image p-2 bd-highlight"><img src="assets/media/features/carousselImage.png"
-                                                                      alt="image">
+                <div class="carousel-element d-flex flex-row bd-highlight mb-5 mb-lg-3 pb-5 pb-lg-0">
+                    <div class="carousel-image p-0 p-lg-3 bd-highlight">
+                        <img src="./assets/media/features/carousselImage.png" alt="image">
                     </div>
-                    <div class="carousel-text p-5 bd-highlight"><p>555555We have been using BillingServ for a short
+                    <div class="carousel-text p-0 p-lg-3 mt-5 mt-lg-0 bd-highlight"><p>2 We have been using BillingServ for a short
                         while, and so far its been delivering on every single point. Would absolutely recommend it to
                         anyone! Their support team is second to none, they answer our support tickets within minutes.
                         Great job, guys</p></div>
                 </div>
-                <div class="carousel-element d-flex flex-row bd-highlight mb-3">
-                    <div class="carousel-image p-2 bd-highlight"><img src="assets/media/features/carousselImage.png"
-                                                                      alt="image">
+                <div class="carousel-element d-flex flex-row bd-highlight mb-5 mb-lg-3 pb-5 pb-lg-0">
+                    <div class="carousel-image p-0 p-lg-3 bd-highlight">
+                        <img src="./assets/media/features/carousselImage.png" alt="image">
                     </div>
-                    <div class="carousel-text p-5 bd-highlight"><p>66666We have been using BillingServ for a short
+                    <div class="carousel-text p-0 p-lg-3 mt-5 mt-lg-0 bd-highlight"><p>3 We have been using BillingServ for a short
                         while, and so far its been delivering on every single point. Would absolutely recommend it to
                         anyone! Their support team is second to none, they answer our support tickets within minutes.
                         Great job, guys</p></div>
                 </div>
                 <div class="carousel-buttons">
-                    <img id="previous-button" class="pop-element" src="assets/media/features/previous-button.png"
-                         alt="previous">
-                    <img id="next-button" class="pop-element" src="assets/media/features/next-button.png" alt="next">
+                    <img id="previous-button" class="pop-element" src="./assets/media/features/previous-button.png" alt="previous">
+                    <img id="next-button" class="pop-element" src="./assets/media/features/next-button.png" alt="next">
                 </div>
             </div>
         </div>
-    </div>
-    <div class="position-relative p-3 text-center mb-15">
-        <div class="col-12">
-            <div class="col-md-6 mx-auto my-5 text-center">
-                <h2 class="display-5  nunito-sans"><span>Get </span><span
+    </section>
+    <section class="position-relative p-0 p-lg-3 text-center mb-15">
+        <div class="col-12 standard-padding-tm">
+            <div class="col-12 col-lg-6 mx-auto my-5 text-center">
+                <h2 class="nunito-sans"><span>Get </span><span
                         class="yellow">Started</span><span>with BillingServ</span></h2>
                 <p>Our highly flexible payment solutions can expand or shrink to meet your needs.
                     Never pay extra for what you don’t need.</p>
             </div>
         </div>
-        <div class="row mb-5">
-            <div class="col-3">
+        <div class="row mb-5 text-left-tm standard-padding-tm">
+            <div class="col-12 col-lg-3">
                 <h3 class="nunito-sans">Sign Up in minutes</h3>
                 <p>BillingServ offers a cost-effective solution where you only pay for the services that are essential
                     to your immediate needs. This approach eliminates the burden of making a significant upfront
                     investment.</p>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
                 <h3 class="nunito-sans">Grows with you</h3>
                 <p>BillingServ provides you with the flexibility to instantly enhance your billing capacity to meet the
                     demands of your business operations, with no upper limit.</p>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
                 <h3 class="nunito-sans">Fully Secured</h3>
                 <p>BillingServ ensures complete data security with its robust backup system, which safeguards your
                     critical information against any potential threats. Rest assured and enjoy a peaceful sleep every
                     night.</p>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
                 <h3 class="nunito-sans">We’re here to help</h3>
                 <p>At BillingServ, our sole focus is on catering to your needs. We are committed to delivering on our
                     'anytime, anywhere promise', which also extends to our support teams. Our dedicated professionals
                     are available round-the-clock, 365-days-a-year to address any queries or concerns you may have.</p>
             </div>
         </div>
-    </div>
-    <div class="card position-absolute footer-card radius-18">
+    </section>
+    <div class="card dynamic-position footer-card radius-18">
         <div class="card-body">
             <div class="row">
-
-                <div class="col-6 p-5">
-                    <h3 class="display-5  nunito-sans white">Making Invoicing Simple For You</h3>
+                <div class="col-12 col-lg-6 p-5">
+                    <h3 class="nunito-sans white">Making Invoicing Simple For You</h3>
                     <p class="white">Cloud Invoicing Solution. Helping you to streamline your business.</p>
-                    <button class="btn btn-balck radius-18" type="submit">Start Free Trial</button>
+                    <button class="btn btn-balck radius-18 button-responsive" type="submit">Start Free Trial</button>
                 </div>
-                <div class="col-6">
-                    <img class="position-absolute footer-card-logo-position"
-                         src="assets/media/features/footer-card-logo.png">
+                <div class="col-6 d-none d-lg-block">
+                    <img class="position-absolute footer-card-logo-position" src="./assets/media/features/footer-card-logo.png" alt="logo">
                 </div>
             </div>
         </div>
@@ -298,16 +340,17 @@
 </main>
 
 <footer class="standard-padding footer-bg">
-    <div class="row mt-15">
-        <div class="col-3 col-md">
-            <img class="mb-4" src="assets/media/features/footerLogo.png" alt="footerLogo">
+    <div class="row mt-15 mtf">
+        <div class="col-12 col-lg-3 col-md mb-5 mb-lg-0">
+            <img class="mb-4 w-15" src="./assets/media/features/footerLogo.png" alt="footerLogo">
             <br>
             <span>At BillingServ, our focus is on making your life simple. Be it through our cloud-based invoice and payments tracking software.</span>
             <br>
-            <img class="mt-4" src="assets/media/features/britishAssesmentBureauLogo.png" alt="footerLogo">
+            <img class="mt-4 d-none d-lg-block" src="./assets/media/features/britishAssesmentBureauLogo.png"
+                 alt="footerLogo">
         </div>
-        <div class="col-3"></div>
-        <div class="col-2 col-md">
+        <div class="col-3 d-none d-lg-block"></div>
+        <div class="col-6 col-lg-2 col-md">
             <h5 class="nunito-sans white">BillingServ</h5>
             <ul class="list-unstyled text-small">
                 <li><a class="link-secondary" href="#">Pricing</a></li>
@@ -319,7 +362,7 @@
                 <li><a class="link-secondary" href="#">Service Status</a></li>
             </ul>
         </div>
-        <div class="col-2 col-md">
+        <div class="col-6 col-lg-2 col-md">
             <h5 class="nunito-sans white">Company</h5>
             <ul class="list-unstyled text-small">
                 <li><a class="link-secondary" href="#">About Us</a></li>
@@ -330,7 +373,7 @@
                 <li><a class="link-secondary" href="#">Blog</a></li>
             </ul>
         </div>
-        <div class="col-2 col-md">
+        <div class="col-6 col-lg-2 col-md">
             <h5 class="nunito-sans white">Legal</h5>
             <ul class="list-unstyled text-small">
                 <li><a class="link-secondary" href="#">Terms</a></li>
@@ -339,14 +382,19 @@
                 <li><a class="link-secondary" href="#">ISO 27001</a></li>
             </ul>
         </div>
+        <div class="col-6 col-lg-2 col-md">
+            <img class="mt-4 d-block d-lg-none w-50" src="./assets/media/features/britishAssesmentBureauLogo.png"
+                 alt="footerLogo">
+        </div>
+
     </div>
     <hr>
     <div class="d-flex justify-content-between mt-1">
         <div><span class="secondary">all rights reserved</span></div>
         <div>
-            <a href="#"><img src="assets/media/features/facebook.png" alt="facebook"></a>
-            <a href="#"><img src="assets/media/features/twitter.png" alt="twitter"></a>
-            <a href="#"><img src="assets/media/features/insta.png" alt="instagram"></a>
+            <a href="#"><img src="./assets/media/features/facebook.png" alt="facebook"></a>
+            <a href="#"><img src="./assets/media/features/twitter.png" alt="twitter"></a>
+            <a href="#"><img src="./assets/media/features/insta.png" alt="instagram"></a>
 
         </div>
     </div>
