@@ -72,7 +72,8 @@ button {
     font-size: 1.25rem !important;
     font-style: normal !important;
     font-weight: 800 !important;
-    line-height: normal !important;}
+    line-height: normal !important;
+}
 
 .yellow {
     color: #FFBE3D !important;
@@ -114,6 +115,7 @@ button {
 .text-left-tm {
     text-align: left;
 }
+
 .footer-card {
     left: 50%;
     transform: translate(-50%, -50%);
@@ -145,17 +147,41 @@ button {
 }
 
 .link-secondary {
-    color: #E7E7E7!important;
-    /* Navlink */
+    color: #E7E7E7 !important;
     font-size: 0.9375rem !important;
     font-style: normal !important;
     font-weight: 500 !important;
     line-height: normal !important;
+    color: #E7E7E7 !important;
 }
+
+.footer-text {
+    color: #E7E7E7 !important;
+    font-size: 0.875rem !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 150% !important; /* 1.3125rem */
+}
+
+.rights-text {
+    color: #646464;
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.3125rem */
+}
+
+.footer-icon {
+    width: 1.625rem;
+    height: 1.625rem;
+}
+
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-toggler {
         display: none !important;
     }
+
     .vw-85 {
         width: 85vw;
     }
@@ -163,6 +189,7 @@ button {
     .dynamic-position {
         position: absolute;
     }
+
     .mt-15 {
         margin-top: 15rem !important;
     }
@@ -275,6 +302,7 @@ button {
     bottom: 10%;
     left: 15rem;
 }
+
 /*FIFTH SECTION*/
 .background-number {
     color: #FFBE3D !important;
@@ -287,6 +315,7 @@ button {
     left: 0;
     bottom: 20%;
 }
+
 /*!*@media screen and (min-width: 768px) and (max-width: 1440px) {*!*/
 /*!*    .standard-padding {*!*/
 /*!*        padding: 1rem;*!*/
@@ -300,7 +329,6 @@ button {
 /*!*}*!*/
 
 
-
 /*.yellow {*/
 /*    color: #FFBE3D;*/
 /*}*/
@@ -310,11 +338,9 @@ button {
 /*}*/
 
 
-
 /*.radius-18 {*/
 /*    border-radius: 18px;*/
 /*}*/
-
 
 
 /*.dynamic-position {*/
@@ -365,19 +391,6 @@ button {
 /*    bottom: 23%;*/
 /*    width: 40%;*/
 /*}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*!* homepage *!*/
@@ -582,7 +595,6 @@ button {
 /*        padding: 2rem;*/
 /*        border-radius: 4rem !important;*/
 /*    }*/
-
 
 
 /*    .standard-padding-tm {*/
