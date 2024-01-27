@@ -153,6 +153,9 @@ button {
     line-height: normal !important;
 }
 @media (min-width: 992px) {
+    .navbar-expand-lg .navbar-toggler {
+        display: none !important;
+    }
     .vw-85 {
         width: 85vw;
     }
